@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="ServletTraitement" method="get">
+Nom
+<input type="text" name="nom">
+Prenom
+<input type="text" name="prenom">
+<a href="ServletTraitement?prenom=foulen&nom=fouleni">lien</a>
+<input type="radio" name="sexe" value="F">Femme
+<input type="radio" name="sexe" value="M">Homme
+<br>
+<label for="fct">Choisir une fonction:</label>
+<select id="fct" name="fonction">
+  <option value="Etudiant" selected>Etudiant(e)</option>
+  <option value="Ingenieur(e)">Ingenieur(e)</option>
+  <option value="Enseignant(e)">Enseignant(e)</option>
+  <option value="Retraite(e)">Retraite(e)</option>
+  <option value="autre">autre</option>
+</select>
+<br>
+<label for="loisirs">Choisir vos loisirs:</label>
+<input type="checkbox" name="loisirs" value="football">Sport
+<input type="checkbox" name="loisirs" value="Musique">Musique/chant
+<input type="checkbox" name="loisirs" value="Peinture">Peinture
+<input type="checkbox" name="loisirs" value="Potterie">Potterie
+<input type="checkbox" name="loisirs" value="football">jardinage
+<input type="checkbox" name="loisirs" value="football">autre
+
+<input type="submit" value="envoyer">
+</form>
+</body>
+</html>
