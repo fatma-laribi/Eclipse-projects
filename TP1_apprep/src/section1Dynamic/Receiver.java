@@ -29,7 +29,7 @@ JPanel panel;
 		allSections=new Group[nbSections];
 		queues=User.queues;
 		for(int i=0;i<nbSections;i++) {
-    		allSections[i]=new Group();
+    		allSections[i]=new Group(i);
     	}
 		frame = new JFrame(); 
 		panel = new JPanel();

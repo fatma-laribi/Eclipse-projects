@@ -32,7 +32,7 @@ public class User extends javax.swing.JFrame {
 		queues=new String[nbSections];
 		for(int i=0;i<nbSections;i++) {
 			queues[i]="mq"+(i+1);
-    		allSections[i]=new Group();
+    		allSections[i]=new Group(i);
     		addListener(i,allSections[i].textArea);}
 		
 		me=userNumber;
