@@ -24,7 +24,7 @@ private static String getSeverity(String[] strings) {
 
 private static String getMessage(String[] strings) {
     if (strings.length < 2)
-        return "Hello World!";
+        return "Hello World Emits!";
     return joinStrings(strings, " ", 1);
 }
 
